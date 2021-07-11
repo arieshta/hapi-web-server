@@ -6,23 +6,7 @@ const init = async () => {
         port: 5000,
         host: 'localhost',
     });
-
-    // server.route([
-    //     {
-    //         method: 'GET',
-    //         path: '/',
-    //         handler: (request, h) => {
-    //             return 'Homepage';
-    //         },
-    //     },
-    //     {
-    //         method: 'GET',
-    //         path: '/about',
-    //         handler: (request, h) => {
-    //             return 'About Page';
-    //         },
-    //     }
-    // ])
+    
     server.route(routes);
 
     await server.start();
