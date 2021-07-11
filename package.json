@@ -1,0 +1,23 @@
+{
+  "name": "hapi-web-server",
+  "version": "1.0.0",
+  "description": "Node web server practice from Dicoding's Belajar Membuat Aplikasi Back-End untuk Pemula course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arieshta/hapi-web-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arieshta/hapi-web-server/issues"
+  },
+  "homepage": "https://github.com/arieshta/hapi-web-server#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.5"
+  }
+}
